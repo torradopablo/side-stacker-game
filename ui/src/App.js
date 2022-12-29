@@ -1,12 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import LoginPage from './pages/Login/Login';
 
 function App() {
   return (
-    <div className="masthead" >
-      <img className="color-overlay"  src="background.jpg"></img>
-      
-    </div>
+    <LoginPage/>
   );
 }
 
